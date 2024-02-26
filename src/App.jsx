@@ -1,19 +1,16 @@
-import './App.css'
-import Header from './components/Header/Header'
-import RecentArticles from './components/RecentArticles/RecentArticles'
+import "./App.css";
+import About from "./components/About/About";
+import Header from "./components/Header/Header";
+import RecentArticles from "./components/RecentArticles/RecentArticles";
 
 function App() {
-
-
   return (
     <>
-    <Header />
-    <RecentArticles />
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      <RecentArticles />
+      <About />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

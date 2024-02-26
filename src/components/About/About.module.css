@@ -1,0 +1,22 @@
+.AboutGlobal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+
+}
+
+.AboutCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+    padding: 2rem;
+}
+
+.titleSection {
+  color: #a306b6;
+  font-size: 2rem;
+}
