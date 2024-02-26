@@ -1,0 +1,61 @@
+.titleSection {
+  color: #a306b6;
+  font-size: 2rem;
+}
+
+.global {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.globalCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  gap: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d9d9d9;
+  width: 20rem;
+  height: 20rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 2rem;
+  background-color: #a306b6;
+  color: white;
+  border-radius: 25rem;
+}
+.imageCard {
+  width: 100%;
+  height: 80%;
+}
+
+.textCard {
+  font-weight: bold;
+}
+
+@media screen and (width > 992px) {
+  .globalCard {
+    flex-direction: row;
+    width: 100%;
+  }
+  .global {
+    width: 100vw;
+  }
+}
